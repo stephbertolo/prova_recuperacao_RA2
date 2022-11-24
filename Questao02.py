@@ -22,7 +22,12 @@ for v in range(10):
     listaInteiros.append(valor)
 
 
+print('\n NÚMEROS PARES')
 for p in (retornaListaPares(listaInteiros)):
     print(p)
+
+print('=-' * 10)
+
+print('\n NÚMEROS ÍMPARES')
 for i in (retornaListaImpares(listaInteiros)):
     print(i)
