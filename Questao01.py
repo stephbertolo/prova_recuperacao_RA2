@@ -1,7 +1,6 @@
 alunos = list()
 notas = list()
 
-
 for aluno in range(5):
     nomeAluno = str(input('Digite o nome do aluno: '))
     alunos.append(nomeAluno)
