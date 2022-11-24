@@ -20,3 +20,9 @@ def retornaListaImpares(lista):
 for v in range(10):
     valor = int(input('Digite um valor: '))
     listaInteiros.append(valor)
+
+
+for p in (retornaListaPares(listaInteiros)):
+    print(p)
+for i in (retornaListaImpares(listaInteiros)):
+    print(i)
